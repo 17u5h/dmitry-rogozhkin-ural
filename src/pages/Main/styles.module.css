@@ -1,0 +1,67 @@
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    padding-top: 60px;
+}
+
+.container {
+    width: 992px;
+    margin: auto;
+    border: 1px solid #8396c3;
+    border-radius: 8px 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #f9fafb;
+}
+
+.headerContainer {
+    height: 225px;
+    width: 992px;
+    border-radius: 7px 7px 0 0;
+}
+
+.headerDescription {
+    color: #ecf4f8;
+    background-color: transparent;
+    width: 500px;
+    margin-left: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.headerTitle {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 0;
+}
+
+.headerCity, .headerContacts {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 0;
+}
+
+.listHrefContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.listHref {
+    font-weight: 600;
+    font-size: 24px;
+    color: #366f91;
+    text-decoration: none;
+    text-align: center;
+}
+.listHref:hover{
+    color: #4e93b6;
+    text-decoration: underline;
+}
+
+.bodyBlock{
+    padding: 0 10px;
+    border: 1px solid #8396c3;
+}
