@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css'
-import headerImage from "../../img/header.jpg"
+import headerImage from "../../assets/header.jpg"
 import {headerAddress, headerPhone, headerSchedule, headerTitle} from "../../content/headerContent";
 
 const Header = () => {

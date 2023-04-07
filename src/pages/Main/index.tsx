@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css'
-import backgroundImage from "../../img/main-background.jpg"
-import Header from "./Header";
+import backgroundImage from "../../assets/main-background.jpg"
+import Header from "../../components/Header";
 import ListHref from "./ListHref";
 
 const Main = () => {
