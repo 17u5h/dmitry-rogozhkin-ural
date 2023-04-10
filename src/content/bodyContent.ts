@@ -9,4 +9,3 @@ export const topic4 = 'Работаем на рынке с 1998г.'
 export const topic5 = 'Гибкая ценовая политика'
 
 export const topic6 = 'Более 200 постоянных клиентов'
-

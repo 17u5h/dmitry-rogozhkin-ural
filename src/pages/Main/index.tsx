@@ -3,6 +3,7 @@ import styles from './styles.module.css'
 import backgroundImage from "../../assets/main-background.jpg"
 import Header from "../../components/Header";
 import ListHref from "./ListHref";
+import Slider from "../../components/Slider";
 
 const Main = () => {
 	const mainBackground = {background: `#8396c3 url("${backgroundImage}") no-repeat center`, backgroundSize: 'cover'}
@@ -12,6 +13,7 @@ const Main = () => {
 			<div className={styles.container}>
 				<Header/>
 				<ListHref/>
+				<Slider/>
 			</div>
 		</div>
 	);
