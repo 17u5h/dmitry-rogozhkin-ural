@@ -1,15 +1,17 @@
 .wrapper {
     width: 100vw;
-    height: 100vh;
     padding-top: 60px;
+    padding-bottom: 400px;
+    background-color: #325093;
 }
 
 .container {
-    width: 992px;
+    width: 1400px;
     margin: auto;
     border: 1px solid #8396c3;
     border-radius: 8px 8px 0 0;
     display: flex;
+    gap: 10px;
     flex-direction: column;
     background-color: #f9fafb;
 }
@@ -19,11 +21,12 @@
     justify-content: center;
     align-items: center;
     height: 40px;
+
 }
 
 .listHref {
     font-weight: 600;
-    font-size: 24px;
+    font-size: 32px;
     color: #366f91;
     text-decoration: none;
     text-align: center;

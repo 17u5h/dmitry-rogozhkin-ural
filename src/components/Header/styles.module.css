@@ -1,6 +1,6 @@
 .headerContainer {
     height: 225px;
-    width: 992px;
+    width: 100%;
     border-radius: 7px 7px 0 0;
 }
 
@@ -12,16 +12,15 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+   
 }
 
 .headerTitle {
     font-weight: 600;
     font-size: 40px;
-    line-height: 0;
 }
 
 .headerCity, .headerContacts {
     font-weight: 600;
     font-size: 24px;
-    line-height: 0;
 }
