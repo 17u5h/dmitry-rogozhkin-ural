@@ -14,7 +14,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Slider = () => {
 	return (
 		<div className={styles.container}>
-			<Carousel>
+			<Carousel interval={4000}>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic1} alt='ural'/>
 					<Carousel.Caption>

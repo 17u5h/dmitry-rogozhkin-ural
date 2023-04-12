@@ -1,26 +1,29 @@
 .headerContainer {
     height: 225px;
     width: 100%;
-    border-radius: 7px 7px 0 0;
+    border-radius: 21px 21px 0 0;
 }
 
 .headerDescription {
     color: #ecf4f8;
     background-color: transparent;
     width: 500px;
-    margin-left: 60px;
+    margin-left: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-   
+    padding-top: 30px;
 }
 
 .headerTitle {
     font-weight: 600;
     font-size: 40px;
+    line-height: 40px;
 }
 
 .headerCity, .headerContacts {
     font-weight: 600;
     font-size: 24px;
+    line-height: 24px;
+
 }

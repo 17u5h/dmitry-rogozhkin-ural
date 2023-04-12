@@ -2,14 +2,13 @@
     width: 100vw;
     padding-top: 60px;
     padding-bottom: 400px;
-    background-color: #325093;
+    background-color: #3c4d74;
 }
 
 .container {
     width: 1400px;
     margin: auto;
-    border: 1px solid #8396c3;
-    border-radius: 8px 8px 0 0;
+    border-radius: 22px 22px 0 0;
     display: flex;
     gap: 10px;
     flex-direction: column;
@@ -38,5 +37,4 @@
 
 .bodyBlock{
     padding: 0 10px;
-    border: 1px solid #8396c3;
 }
