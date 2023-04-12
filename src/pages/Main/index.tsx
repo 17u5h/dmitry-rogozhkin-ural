@@ -3,6 +3,7 @@ import styles from './styles.module.css'
 import Header from "../../components/Header";
 import ListHref from "./ListHref";
 import Slider from "../../components/Slider";
+import DgisWidget from "../../components/DgisWidget";
 
 
 const Main = () => {
@@ -13,6 +14,8 @@ const Main = () => {
 				<Header/>
 				<ListHref/>
 				<Slider/>
+				<DgisWidget/>
+
 			</div>
 		</div>
 	);
