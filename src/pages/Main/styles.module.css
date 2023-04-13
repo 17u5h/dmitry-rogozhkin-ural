@@ -2,11 +2,11 @@
     width: 100vw;
     padding-top: 60px;
     padding-bottom: 400px;
-    background-color: #3c4d74;
+    background-color: #0d1c3d;
 }
 
 .container {
-    width: 1400px;
+    width: 1800px;
     margin: auto;
     border-radius: 22px 22px 0 0;
     display: flex;
@@ -26,7 +26,7 @@
 .listHref {
     font-weight: 600;
     font-size: 32px;
-    color: #366f91;
+    color: #0d1c3d;
     text-decoration: none;
     text-align: center;
 }
