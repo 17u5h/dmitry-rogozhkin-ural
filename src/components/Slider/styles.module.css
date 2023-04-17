@@ -4,6 +4,12 @@
     height: 600px;
     object-fit: cover;
 }
+.itemText{
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000 ;
+}
 @media (max-width: 980px) {
     .carouselImage{
         height: 400px;
