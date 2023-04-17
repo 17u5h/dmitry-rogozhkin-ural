@@ -2,6 +2,23 @@
     display: block;
     width: 100%;
     height: 600px;
+    object-fit: cover;
 }
-.container{
+@media (max-width: 980px) {
+    .carouselImage{
+        height: 400px;
+    }
+}
+@media (max-width: 400px) {
+    .carouselImage{
+        height: 300px;
+    }
+}
+@media (max-width: 300px) {
+    .carouselImage{
+        height: 200px;
+    }
+    .itemText{
+        font-size: 18px;
+    }
 }

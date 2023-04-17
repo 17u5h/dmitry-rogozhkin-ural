@@ -1,18 +1,16 @@
 .wrapper {
     width: 100vw;
-    padding-top: 60px;
     padding-bottom: 400px;
     background-color: #0d1c3d;
 }
 
 .container {
-    width: 1800px;
+    max-width: 2200px;
     margin: auto;
-    border-radius: 22px 22px 0 0;
     display: flex;
-    gap: 10px;
+    gap: 40px;
     flex-direction: column;
-    background-color: #f9fafb;
+    background-color: transparent;
 }
 
 .listHrefContainer {
@@ -26,15 +24,20 @@
 .listHref {
     font-weight: 600;
     font-size: 32px;
-    color: #0d1c3d;
+    color: #fff;
     text-decoration: none;
     text-align: center;
 }
 .listHref:hover{
-    color: #4e93b6;
+    color: #d0eaff;
     text-decoration: underline;
 }
 
 .bodyBlock{
     padding: 0 10px;
+}
+@media (max-width: 1360px) {
+    .container{
+        gap: 0;
+    }
 }

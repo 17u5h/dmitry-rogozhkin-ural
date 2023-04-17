@@ -18,37 +18,37 @@ const Slider = () => {
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic1} alt='ural'/>
 					<Carousel.Caption>
-						<h1>{topic1}</h1>
+						<h1 className={styles.itemText}>{topic1}</h1>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic2} alt='ural'/>
 					<Carousel.Caption>
-						<h1>{topic2}</h1>
+						<h1 className={styles.itemText}>{topic2}</h1>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic3} alt='ural'/>
 					<Carousel.Caption>
-						<h1>{topic3}</h1>
+						<h1 className={styles.itemText}>{topic3}</h1>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic4} alt='ural'/>
 					<Carousel.Caption>
-						<h1>{topic4}</h1>
+						<h1 className={styles.itemText}>{topic4}</h1>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic5} alt='ural'/>
 					<Carousel.Caption>
-						<h1>{topic5}</h1>
+						<h1 className={styles.itemText}>{topic5}</h1>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic6} alt='ural'/>
 					<Carousel.Caption>
-						<h1>{topic6}</h1>
+						<h1 className={styles.itemText}>{topic6}</h1>
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>

@@ -7,13 +7,13 @@ const Header = () => {
 	const background = {backgroundImage: `url("${headerImage}")`, backgroundSize: 'cover'}
 
 	return (
-		<div className={styles.headerContainer} style={background}>
-			<div className={styles.headerDescription}>
+		<div className={styles.headerContainer} >
+
 				<p className={styles.headerTitle}>{headerTitle}</p>
 				<p className={styles.headerCity}>{headerAddress}</p>
 				<p className={styles.headerContacts}>{headerSchedule}</p>
 				<p className={styles.headerContacts}>{headerPhone}</p>
-			</div>
+
 		</div>
 	);
 };
