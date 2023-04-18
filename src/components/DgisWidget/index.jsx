@@ -1,11 +1,12 @@
-import React, {useEffect, useRef} from 'react';
+import React, {forwardRef, useEffect, useRef} from 'react';
+import styles from './styles.module.css'
 import DG from '2gis-maps'
 
-const DgisWidget = () => {
-	const mapContainerRef = useRef()
+const DgisWidget = forwardRef((props, ref) => {
+	const mapRef = useRef()
 
 	useEffect(() => {
-		const map = DG.map(mapContainerRef.current, {
+		const map = DG.map(mapRef.current, {
 			center: [56.523881, 84.991522],
 			zoom: 18,
 		})
@@ -17,8 +18,10 @@ const DgisWidget = () => {
 	}, [])
 
 	return (
-		<div ref={mapContainerRef} style={{ width: '100%', height: '500px' }}/>
+		<div ref={ref} className={styles.mapContainer}>
+			<div ref={mapRef} style={{ width: '100%', height: '500px' }} />
+		</div>
 	);
-};
+});
 
 export default DgisWidget;
