@@ -1,4 +1,5 @@
 .headerContainer {
+
     height: 120px;
     width: 100%;
     display: flex;
@@ -7,6 +8,10 @@
     align-items: center;
     background-color: transparent;
     color: #fff;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000 ;
 }
 
 .headerDescription {
@@ -29,6 +34,20 @@
     font-weight: 600;
     font-size: 24px;
     line-height: 24px;
+}
+.headerCity{
+    cursor: pointer;
+}
+.headerTelephone {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 24px;
+    color: #fff;
+    text-decoration: none;
+}
+.headerTelephone:hover, .headerCity:hover {
+    text-decoration: underline;
+    color: #fff;
 }
 @media (max-width: 1360px) {
     .headerContainer{

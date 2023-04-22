@@ -14,41 +14,52 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 const Slider = () => {
 	return (
 		<div className={styles.container}>
-			<Carousel interval={4000}>
+			<Carousel interval={6000}>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic1} alt='ural'/>
 					<Carousel.Caption>
-						<h1 className={styles.itemText}>{topic1}</h1>
+						<h1 className={styles.itemTitleText}>{topic1}</h1>
+						<h3 className={styles.itemText}>ghjhggkjnzsdhfb asdfsdfsdf sdfg ghdfhdfh dfsgsdfgfdg</h3>
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic2} alt='ural'/>
 					<Carousel.Caption>
-						<h1 className={styles.itemText}>{topic2}</h1>
+						<h1 className={styles.itemTitleText}>{topic2}</h1>
+						<h3 className={styles.itemText}>ghjhggkjnzsdhfb asdfsdfsdf sdfg ghdfhdfh dfsgsdfgfdg</h3>
+
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic3} alt='ural'/>
 					<Carousel.Caption>
-						<h1 className={styles.itemText}>{topic3}</h1>
+						<h1 className={styles.itemTitleText}>{topic3}</h1>
+						<h3 className={styles.itemText}>ghjhggkjnzsdhfb asdfsdfsdf sdfg ghdfhdfh dfsgsdfgfdg</h3>
+
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic4} alt='ural'/>
 					<Carousel.Caption>
-						<h1 className={styles.itemText}>{topic4}</h1>
+						<h1 className={styles.itemTitleText}>{topic4}</h1>
+						<h3 className={styles.itemText}>ghjhggkjnzsdhfb asdfsdfsdf sdfg ghdfhdfh dfsgsdfgfdg</h3>
+
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic5} alt='ural'/>
 					<Carousel.Caption>
-						<h1 className={styles.itemText}>{topic5}</h1>
+						<h1 className={styles.itemTitleText}>{topic5}</h1>
+						<h3 className={styles.itemText}>ghjhggkjnzsdhfb asdfsdfsdf sdfg ghdfhdfh dfsgsdfgfdg</h3>
+
 					</Carousel.Caption>
 				</Carousel.Item>
 				<Carousel.Item>
 					<img className={styles.carouselImage} src={uralPic6} alt='ural'/>
 					<Carousel.Caption>
-						<h1 className={styles.itemText}>{topic6}</h1>
+						<h1 className={styles.itemTitleText}>{topic6}</h1>
+						<h3 className={styles.itemText}>ghjhggkjnzsdhfb asdfsdfsdf sdfg ghdfhdfh dfsgsdfgfdg</h3>
+
 					</Carousel.Caption>
 				</Carousel.Item>
 			</Carousel>

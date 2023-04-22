@@ -8,17 +8,27 @@
     max-width: 2200px;
     margin: auto;
     display: flex;
-    gap: 0;
     flex-direction: column;
+    /*align-items: center;*/
     background-color: transparent;
 }
 
 .listHrefContainer {
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 40px;
-
+    margin-top: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 34px 20px 38px 20px;
+    cursor: pointer;
+    margin-left: calc(50% - 300px);
+}
+.listHrefContainer:hover{
+    background-color: #4c74ce;
 }
 
 .listHref {
@@ -29,8 +39,8 @@
     text-align: center;
 }
 .listHref:hover{
-    color: #d0eaff;
-    text-decoration: underline;
+    color: #fff;
+    /*text-decoration: underline;*/
 }
 
 .bodyBlock{
@@ -39,5 +49,14 @@
 @media (max-width: 1360px) {
     .container{
         gap: 0;
+    }
+}
+@media (max-width: 600px) {
+    .listHrefContainer{
+        width: 300px;
+        margin-left: calc(50% - 150px);
+    }
+    .listHref{
+        font-size: 20px;
     }
 }

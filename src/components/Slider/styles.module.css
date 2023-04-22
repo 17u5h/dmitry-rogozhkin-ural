@@ -4,27 +4,61 @@
     height: 600px;
     object-fit: cover;
 }
-.itemText{
+.itemTitleText{
+    font-size: 66px;
     text-shadow: 1px 0 1px #000,
     0 1px 1px #000,
     -1px 0 1px #000,
     0 -1px 1px #000 ;
 }
+.itemText{
+    font-size: 40px;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000 ;
+}
+@media (max-width: 1360px) {
+    .carouselImage{
+        height: 400px;
+    }
+    .itemTitleText{
+        font-size: 46px;
+    }
+    .itemText{
+        font-size: 34px;
+    }
+}
 @media (max-width: 980px) {
     .carouselImage{
         height: 400px;
+    }
+    .itemTitleText{
+        font-size: 36px;
+    }
+    .itemText{
+        font-size: 28px;
     }
 }
 @media (max-width: 400px) {
     .carouselImage{
         height: 300px;
     }
+    .itemTitleText{
+        font-size: 28px;
+    }
+    .itemText{
+        font-size: 20px;
+    }
 }
 @media (max-width: 300px) {
     .carouselImage{
         height: 200px;
     }
-    .itemText{
+    .itemTitleText{
         font-size: 18px;
+    }
+    .itemText{
+        font-size: 14px;
     }
 }
