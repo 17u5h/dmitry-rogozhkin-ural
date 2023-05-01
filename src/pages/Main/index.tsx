@@ -11,9 +11,9 @@ import {NOOP} from "../../lib/NOOP";
 const Main = () => {
 	const dgisRef = useRef<HTMLDivElement>(null)
 	const focusDgisHandler = () => {
-
 		dgisRef.current?.scrollIntoView({block: "center", inline: "nearest", behavior: "smooth"})
 	}
+
 	return (
 		<div className={styles.wrapper} style={{background: `#111 url("${backgroundImage}") no-repeat center`, backgroundSize: 'cover'}}>
 			<Header onClick={focusDgisHandler}/>
