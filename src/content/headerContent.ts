@@ -1,4 +1,4 @@
-export const headerTitle = 'ООО "УралЗапчасть"'
+export const headerTitle = 'УралЗапчасть'
 
 export const headerAddress = 'г. Томск, ул. Смирнова 30В'
 

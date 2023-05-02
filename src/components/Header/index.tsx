@@ -12,10 +12,12 @@ const Header = ({onClick}: Props) => {
 	return (
 		<div className={styles.headerContainer}>
 			<p className={styles.headerTitle}>{headerTitle}</p>
-			<p className={styles.headerCity} onClick={onClick}>{headerAddress}</p>
-			<p className={styles.headerContacts}>{headerSchedule}</p>
-			<p><a className={styles.headerTelephone} href='tel:+73822211670'>{headerPhone}</a></p>
-			<p><a className={styles.headerTelephone} href='https://t.me/DmitriyTomsk'><TelegramLogo/></a></p>
+			<p className={styles.headerAddress} onClick={onClick}>{headerAddress}</p>
+			<p className={styles.headerSchedule}>{headerSchedule}</p>
+			<div className={styles.headerContacts}>
+				<p><a className={styles.headerTelephone} href='tel:+73822211670'>{headerPhone}</a></p>
+				<p><a href='https://t.me/DmitriyTomsk'><TelegramLogo/></a></p>
+			</div>
 		</div>
 	);
 };

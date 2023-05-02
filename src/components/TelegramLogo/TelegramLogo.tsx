@@ -4,7 +4,7 @@ import styles from './styles.module.css'
 
 const TelegramLogo = () => {
 	return (
-			<svg className={styles.telegramLogo} fill="#3f87d5" height="60px" width="60px"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
+			<svg className={styles.telegramLogo} fill="#3f87d5" height="40px" width="40px"  version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 					 xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 455 455" xmlSpace="preserve" stroke="#3f87d5">
 
 				<g id="SVGRepo_bgCarrier" strokeWidth="0"/>
