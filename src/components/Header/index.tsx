@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './styles.module.css'
 import {headerAddress, headerPhone, headerSchedule, headerTitle} from "../../content/headerContent";
-import TelegramLogo from "../TelegramLogo/TelegramLogo";
+import TelegramLogo from "../TelegramLogo";
 
 type Props = {
 	onClick: () => void

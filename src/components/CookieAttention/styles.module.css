@@ -1,0 +1,31 @@
+.container {
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    opacity: 0.8;
+}
+
+.text {
+    font-size: 30px;
+    color: #939393;
+}
+@media (max-width: 1360px) {
+    .text {
+        font-size: 22px;
+    }
+}
+@media (max-width: 400px) {
+    .text {
+        font-size: 16px;
+    }
+}
+@media (max-width: 300px) {
+    .text {
+        font-size: 14px;
+    }
+}
+

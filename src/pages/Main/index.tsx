@@ -1,15 +1,21 @@
-import React, {useRef} from 'react';
+import React, {useRef, useState} from 'react';
 import styles from './styles.module.css'
 import Header from "../../components/Header";
 import ListHref from "./ListHref";
 import Slider from "../../components/Slider";
 import DgisWidget from "../../components/DgisWidget";
 import backgroundImage from '../../assets/backgroung1.jpg'
-import {NOOP} from "../../lib/NOOP";
+import CookieAttention from "../../components/CookieAttention";
 
 
 const Main = () => {
 	const dgisRef = useRef<HTMLDivElement>(null)
+	const [isCookieAttentionVisible, setIsCookieAttentionVisible] = useState(true)
+
+	const hideCookieAttention = () => {
+		setIsCookieAttentionVisible(false)
+	}
+
 	const focusDgisHandler = () => {
 		dgisRef.current?.scrollIntoView({block: "center", inline: "nearest", behavior: "smooth"})
 	}
@@ -24,6 +30,8 @@ const Main = () => {
 				<ListHref />
 
 			</div>
+			{isCookieAttentionVisible && <CookieAttention onClick={hideCookieAttention}/>}
+
 		</div>
 	);
 };

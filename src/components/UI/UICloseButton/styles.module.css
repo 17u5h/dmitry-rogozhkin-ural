@@ -1,0 +1,6 @@
+.closeButton {
+    position: absolute;
+    right: 4vw;
+    top: 4vh;
+    cursor: pointer;
+}
