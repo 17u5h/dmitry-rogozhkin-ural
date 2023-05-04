@@ -4,7 +4,7 @@
     background-color: #0d1c3d;
 }
 
-.container {
+.cookieAttention {
     max-width: 2200px;
     margin: auto;
     display: flex;
@@ -46,7 +46,7 @@
     padding: 0 10px;
 }
 @media (max-width: 1360px) {
-    .container{
+    .cookieAttention{
         gap: 0;
     }
 }

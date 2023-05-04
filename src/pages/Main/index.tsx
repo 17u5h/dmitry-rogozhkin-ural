@@ -6,14 +6,25 @@ import Slider from "../../components/Slider";
 import DgisWidget from "../../components/DgisWidget";
 import backgroundImage from '../../assets/backgroung1.jpg'
 import CookieAttention from "../../components/CookieAttention";
+import CookieConfirmation from "../../components/CookieAttention/CookieConfirmation";
 
 
 const Main = () => {
 	const dgisRef = useRef<HTMLDivElement>(null)
 	const [isCookieAttentionVisible, setIsCookieAttentionVisible] = useState(true)
+	const [isCookieConfirmationVisible, setIsCookieConfirmationVisible] = useState(false)
 
 	const hideCookieAttention = () => {
 		setIsCookieAttentionVisible(false)
+		setIsCookieConfirmationVisible(false)
+	}
+	const showCookieConfirmation = () => {
+		setIsCookieAttentionVisible(false)
+		setIsCookieConfirmationVisible(true)
+	}
+	const hideCookieConfirmation = () => {
+		setIsCookieAttentionVisible(true)
+		setIsCookieConfirmationVisible(false)
 	}
 
 	const focusDgisHandler = () => {
@@ -30,8 +41,8 @@ const Main = () => {
 				<ListHref />
 
 			</div>
-			{isCookieAttentionVisible && <CookieAttention onClick={hideCookieAttention}/>}
-
+			{isCookieAttentionVisible && <CookieAttention onClick={hideCookieAttention} onMouseEnter={showCookieConfirmation} />}
+			{isCookieConfirmationVisible && <CookieConfirmation onClick={hideCookieAttention} onMouseLeave={hideCookieConfirmation}/>}
 		</div>
 	);
 };
