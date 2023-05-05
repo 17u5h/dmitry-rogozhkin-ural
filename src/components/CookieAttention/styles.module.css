@@ -10,6 +10,7 @@
 }
 
 .text {
+    width: 88vw;
     padding-left: 20px;
     font-size: 30px;
     color: #939393;
@@ -25,21 +26,28 @@
     align-items: center;
     background-color: #fff;
     cursor: pointer;
+    opacity: 0.8;
 }
 
-.acceptButton{
-    padding: 6px 120px;
-    border: 4px solid #d36f6d;
+.acceptButton {
+    padding: 2px 120px 6px 120px;
+    border: 4px solid #f1c8c8;
     border-radius: 16px;
-    background-color: #fff;
-    color: #999;
-    font-size: 44px;
-    font-weight: 600;
+    background-color: #fafafa;
+    color: #888888;
+    font-size: 40px;
+    font-weight: 400;
 }
 
 @media (max-width: 1360px) {
     .text {
-        font-size: 22px;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 800px) {
+    .text {
+        font-size: 20px;
     }
 }
 
