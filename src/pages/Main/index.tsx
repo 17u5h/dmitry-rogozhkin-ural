@@ -7,6 +7,7 @@ import DgisWidget from "../../components/DgisWidget";
 import backgroundImage from '../../assets/backgroung1.jpg'
 import CookieAttention from "../../components/CookieAttention";
 import CookieConfirmation from "../../components/CookieAttention/CookieConfirmation";
+import Footer from "../../components/Footer";
 
 
 const Main = () => {
@@ -40,7 +41,9 @@ const Main = () => {
 				<DgisWidget ref={dgisRef}/>
 				<ListHref />
 
+
 			</div>
+			<Footer onClick={focusDgisHandler}/>
 			{isCookieAttentionVisible && <CookieAttention onClick={hideCookieAttention} onMouseEnter={showCookieConfirmation} />}
 			{isCookieConfirmationVisible && <CookieConfirmation onClick={hideCookieAttention} onMouseLeave={hideCookieConfirmation}/>}
 		</div>

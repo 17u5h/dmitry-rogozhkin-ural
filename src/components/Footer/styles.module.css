@@ -1,0 +1,21 @@
+.footerContainer {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+    font-size: 14px;
+    padding-top: 10px;
+    margin-top: 20px;
+}
+.footerTelephone, .footerAddress{
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+.footerTelephone:hover, .footerAddress:hover{
+    color: #fff;
+    text-decoration: underline;
+}

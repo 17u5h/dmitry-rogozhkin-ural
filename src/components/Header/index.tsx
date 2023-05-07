@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './styles.module.css'
-import {headerAddress, headerPhone, headerSchedule, headerTitle} from "../../content/headerContent";
+import {headerAddress, headerPhone, headerSchedule, headerTitle} from "../../content/contactsContent";
 import TelegramLogo from "../TelegramLogo";
 
 type Props = {
