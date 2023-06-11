@@ -23,9 +23,20 @@
     padding-top: 30px;
 }
 
+.companyLogoContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.companyLogoPicture{
+    width: 60px;
+    padding-bottom: 10px;
+}
+
 .headerTitle {
     font-weight: 600;
-    font-size: 40px;
+    font-size: 44px;
     line-height: 40px;
 }
 

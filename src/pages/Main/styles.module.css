@@ -18,20 +18,24 @@
     align-items: center;
     height: 40px;
     margin-top: 20px;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    background-color: #1d3876;
     padding: 34px 20px 38px 20px;
     cursor: pointer;
     margin-left: calc(50% - 300px);
 }
 .listHrefContainer:hover{
-    background-color: #4c74ce;
+    background-color: #2b60c7;
 }
 
 .listHref {
     font-weight: 600;
     font-size: 32px;
+    text-shadow: 1px 0 1px #000,
+    0 1px 1px #000,
+    -1px 0 1px #000,
+    0 -1px 1px #000 ;
     color: #fff;
     text-decoration: none;
     text-align: center;

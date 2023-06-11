@@ -4,7 +4,7 @@ import Header from "../../components/Header";
 import ListHref from "./ListHref";
 import Slider from "../../components/Slider";
 import DgisWidget from "../../components/DgisWidget";
-import backgroundImage from '../../assets/backgroung1.jpg'
+import backgroundImage from '../../assets/backgroung-blurred.jpg'
 import CookieAttention from "../../components/CookieAttention";
 import CookieConfirmation from "../../components/CookieAttention/CookieConfirmation";
 import Footer from "../../components/Footer";

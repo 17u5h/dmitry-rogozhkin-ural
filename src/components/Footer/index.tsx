@@ -1,10 +1,9 @@
 import React from 'react';
 import styles from './styles.module.css'
 import {
-	companyAddress,
 	companyPhone,
 	companySchedule,
-	companyFooterTitle
+	companyFooterTitle, companyAddressFooter
 } from "../../content/contactsContent";
 
 type Props = {
@@ -15,7 +14,7 @@ const Footer = ({onClick}: Props) => {
 	return (
 		<div className={styles.footerContainer}>
 			<p>{companyFooterTitle}</p>
-			<p className={styles.footerAddress} onClick={onClick}>{companyAddress}</p>
+			<p className={styles.footerAddress} onClick={onClick}>{companyAddressFooter}</p>
 			<p>{companySchedule}</p>
 			<p><a className={styles.footerTelephone} href='tel:+73822211670'>{companyPhone}</a></p>
 		</div>

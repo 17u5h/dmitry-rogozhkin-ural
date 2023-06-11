@@ -6,17 +6,17 @@
 }
 .itemTitleText{
     font-size: 66px;
-    text-shadow: 1px 0 1px #000,
-    0 1px 1px #000,
-    -1px 0 1px #000,
-    0 -1px 1px #000 ;
+    text-shadow: 1px 0 10px #000,
+    0 1px 10px #000,
+    -1px 0 10px #000,
+    0 -1px 10px #000 ;
 }
 .itemText{
     font-size: 40px;
-    text-shadow: 1px 0 1px #000,
-    0 1px 1px #000,
-    -1px 0 1px #000,
-    0 -1px 1px #000 ;
+    text-shadow: 1px 0 10px #000,
+    0 1px 10px #000,
+    -1px 0 10px #000,
+    0 -1px 10px #000 ;
 }
 @media (max-width: 1360px) {
     .carouselImage{
