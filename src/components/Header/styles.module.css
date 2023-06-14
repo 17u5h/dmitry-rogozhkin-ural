@@ -23,13 +23,13 @@
     padding-top: 30px;
 }
 
-.companyLogoContainer{
+.companyLogoContainer {
     display: flex;
     gap: 10px;
     align-items: center;
 }
 
-.companyLogoPicture{
+.companyLogoPicture {
     width: 60px;
     padding-bottom: 10px;
 }
@@ -63,18 +63,29 @@
     color: #fff;
 }
 
-.headerContacts {
+.cellPhoneBlock {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
+.headerContacts {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 @media (max-width: 1360px) {
     .headerContainer {
         padding-top: 20px;
-        height: 220px;
+        height: 360px;
         flex-direction: column;
         justify-content: space-around;
+    }
+
+    .headerContacts {
+        align-items: center;
+        gap: 5px;
     }
 }
 
