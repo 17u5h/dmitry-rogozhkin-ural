@@ -25,7 +25,7 @@
 .cellPhoneBlock {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 14px;
 }
 
 @media (max-width: 1360px) {

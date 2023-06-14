@@ -28,7 +28,7 @@ const Header = ({onClick}: Props) => {
 				<p><a className={styles.headerTelephone} href='tel:+73822211670'>{companyPhone}</a></p>
 				<div className={styles.cellPhoneBlock}>
 					<p><a className={styles.headerTelephone} href='tel:+7'>{companyCellPhone}</a></p>
-					<p><a href={telegramLink}><TelegramLogo/></a></p>
+					<p><a href={telegramLink}><TelegramLogo size={40}/></a></p>
 				</div>
 			</div>
 		</div>

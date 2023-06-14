@@ -20,7 +20,7 @@ const Footer = ({onClick}: Props) => {
 			<p><a className={styles.footerTelephone} href='tel:+73822211670'>{companyPhone}</a></p>
 			<div className={styles.cellPhoneBlock}>
 				<p><a className={styles.footerTelephone} href='tel:+7'>{companyCellPhone}</a></p>
-				<p><a href={telegramLink}><TelegramLogo/></a></p>
+				<p><a href={telegramLink}><TelegramLogo size={20}/></a></p>
 			</div>
 		</div>
 	);
