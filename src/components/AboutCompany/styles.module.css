@@ -5,8 +5,15 @@
     gap: 2vh;
     padding: 20px;
 }
-.aboutTopic{
+
+.aboutTopic {
     color: #fff;
-    font-size: 14px;
+    font-size: 24px;
     text-align: center;
+}
+
+@media (max-width: 880px) {
+    .aboutTopic {
+        font-size: 18px;
+    }
 }
