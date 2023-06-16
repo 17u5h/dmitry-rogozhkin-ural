@@ -10,3 +10,4 @@
 
 ![image](https://github.com/17u5h/dmitry-rogozhkin-ural/assets/102058870/7687a2cd-4659-403b-8545-0f21b291b750)
 
+![image](https://github.com/17u5h/dmitry-rogozhkin-ural/assets/102058870/0ba7e1c1-7d12-4cb1-8d98-ac7b5a0153ec)
