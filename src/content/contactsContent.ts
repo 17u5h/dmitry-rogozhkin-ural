@@ -8,7 +8,7 @@ export const companyAddressFooter = '634059, г. Томск, ул. Смирно�
 
 export const companyPhone = 'тел. +7 (3822) 21-16-70'
 
-export const companyCellPhone = 'сот. +7 999 999 9999'
+export const companyCellPhone = 'сот. +7-901-611-16-70'
 
 export const companySchedule = 'Будни: 9:00-17:00, Сб.: 10:00-13:00'
 

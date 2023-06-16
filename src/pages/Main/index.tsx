@@ -8,6 +8,7 @@ import backgroundImage from '../../assets/backgroung-blurred.jpg'
 import CookieAttention from "../../components/CookieAttention";
 import CookieConfirmation from "../../components/CookieAttention/CookieConfirmation";
 import Footer from "../../components/Footer";
+import AboutCompany from "../../components/AboutCompany";
 
 
 const Main = () => {
@@ -40,6 +41,7 @@ const Main = () => {
 				<Slider/>
 				<DgisWidget ref={dgisRef}/>
 				<ListHref />
+				<AboutCompany/>
 
 
 			</div>
