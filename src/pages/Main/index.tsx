@@ -37,17 +37,16 @@ const Main = () => {
 		<div className={styles.wrapper} style={{background: `#111 url("${backgroundImage}") no-repeat center`, backgroundSize: 'cover'}}>
 			<Header onClick={focusDgisHandler}/>
 			<div className={styles.container}>
-
 				<Slider/>
 				<DgisWidget ref={dgisRef}/>
-				<ListHref />
+				<ListHref/>
 				<AboutCompany/>
-
-
 			</div>
 			<Footer onClick={focusDgisHandler}/>
-			{isCookieAttentionVisible && <CookieAttention onClick={hideCookieAttention} onMouseEnter={showCookieConfirmation} />}
-			{isCookieConfirmationVisible && <CookieConfirmation onClick={hideCookieAttention} onMouseLeave={hideCookieConfirmation}/>}
+			{isCookieAttentionVisible &&
+				<CookieAttention onClick={hideCookieAttention} onMouseEnter={showCookieConfirmation}/>}
+			{isCookieConfirmationVisible &&
+				<CookieConfirmation onClick={hideCookieAttention} onMouseLeave={hideCookieConfirmation}/>}
 		</div>
 	);
 };
