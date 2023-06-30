@@ -4,7 +4,7 @@ import {
 	companyPhone,
 	companySchedule,
 	companyHeaderTitle,
-	telegramLink, companyAddressHeader, companyCellPhone
+	telegramLink, companyAddressHeader, companyCellPhone, companyCellPhoneLink, companyPhoneLink
 } from "../../content/contactsContent";
 import TelegramLogo from "../TelegramLogo";
 import companyLogo from "../../assets/company-logo.png";
@@ -25,9 +25,9 @@ const Header = ({onClick}: Props) => {
 			<p className={styles.headerAddress} onClick={onClick}>{companyAddressHeader}</p>
 			<p className={styles.headerSchedule}>{companySchedule}</p>
 			<div className={styles.headerContacts}>
-				<p><a className={styles.headerTelephone} href='tel:+73822211670'>{companyPhone}</a></p>
+				<p><a className={styles.headerTelephone} href={companyPhoneLink}>{companyPhone}</a></p>
 				<div className={styles.cellPhoneBlock}>
-					<p><a className={styles.headerTelephone} href='tel:+7'>{companyCellPhone}</a></p>
+					<p><a className={styles.headerTelephone} href={companyCellPhoneLink}>{companyCellPhone}</a></p>
 					<p><a href={telegramLink}><TelegramLogo size={40}/></a></p>
 				</div>
 			</div>

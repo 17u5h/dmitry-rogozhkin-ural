@@ -3,7 +3,7 @@ import styles from './styles.module.css'
 import {
 	companyPhone,
 	companySchedule,
-	companyFooterTitle, companyAddressFooter, companyCellPhone, telegramLink
+	companyFooterTitle, companyAddressFooter, companyCellPhone, telegramLink, companyCellPhoneLink, companyPhoneLink
 } from "../../content/contactsContent";
 import TelegramLogo from "../TelegramLogo";
 
@@ -17,9 +17,9 @@ const Footer = ({onClick}: Props) => {
 			<p>{companyFooterTitle}</p>
 			<p className={styles.footerAddress} onClick={onClick}>{companyAddressFooter}</p>
 			<p>{companySchedule}</p>
-			<p><a className={styles.footerTelephone} href='tel:+73822211670'>{companyPhone}</a></p>
+			<p><a className={styles.footerTelephone} href={companyPhoneLink}>{companyPhone}</a></p>
 			<div className={styles.cellPhoneBlock}>
-				<p><a className={styles.footerTelephone} href='tel:+7'>{companyCellPhone}</a></p>
+				<p><a className={styles.footerTelephone} href={companyCellPhoneLink}>{companyCellPhone}</a></p>
 				<p><a href={telegramLink}><TelegramLogo size={20}/></a></p>
 			</div>
 		</div>
