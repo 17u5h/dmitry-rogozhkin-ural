@@ -7,6 +7,7 @@
     align-items: center;
     background-color: #fff;
     opacity: 0.8;
+    z-index: 1;
 }
 
 .text {
@@ -42,25 +43,27 @@
 
 @media (max-width: 1360px) {
     .text {
-        font-size: 12px;
+        font-size: 16px;
+        line-height: 24px;
     }
 }
 
 @media (max-width: 800px) {
     .text {
         font-size: 12px;
+        line-height: 12px;
     }
 }
 
 @media (max-width: 400px) {
     .text {
-        font-size: 12px;
+        font-size: 10px;
+        line-height: 9px;
     }
-}
 
-@media (max-width: 300px) {
-    .text {
-        font-size: 14px;
+    .cookieAttention {
+        height: 14vh;
+
     }
 }
 

@@ -1,10 +1,10 @@
-import React from 'react';
+import React, {MouseEventHandler} from 'react';
 import styles from './styles.module.css'
 import {cookieAttentionContent} from "../../content/cookieAttentionContent";
 import UiCloseButton from "../UI/UICloseButton";
 
 type Props = {
-	onClick: () => void
+	onClick: (e: MouseEventHandler<HTMLDivElement>) => void
 	onMouseEnter: () => void
 }
 

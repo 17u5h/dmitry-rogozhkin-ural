@@ -5,7 +5,7 @@ import UiCloseButton from "../UI/UICloseButton";
 
 
 type Props = {
-	onClick: () => void
+	onClick: (e: any) => void
 	onMouseLeave: () => void
 }
 
@@ -13,7 +13,7 @@ const CookieConfirmation = ({onClick, onMouseLeave}: Props) => {
 	return (
 		<div className={styles.cookieConfirmation} onClick={onClick} onMouseLeave={onMouseLeave}>
 			<CookieAcceptButton/>
-			<UiCloseButton onClick={onClick}/>
+			<UiCloseButton onClick={(e) => onClick(e)}/>
 		</div>
 	);
 };

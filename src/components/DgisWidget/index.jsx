@@ -19,7 +19,7 @@ const DgisWidget = forwardRef((props, ref) => {
 
 	return (
 		<div ref={ref} className={styles.mapContainer}>
-			<div ref={mapRef} style={{width: '100%', height: '500px'}}/>
+			<div ref={mapRef} style={{width: '100%', height: '400px'}}/>
 		</div>
 	);
 });

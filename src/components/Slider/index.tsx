@@ -11,7 +11,7 @@ const Slider = () => {
 			<Carousel interval={5000}>
 				{contentForSlider.map(el => (
 					<Carousel.Item>
-						<img className={styles.carouselImage} src={el.picture} alt='ural truck'/>
+						<img className={styles.carouselImage} src={el.picture} alt='картинка грузовика Урал'/>
 						<Carousel.Caption>
 							<h1 className={styles.itemTitleText}>{el.title}</h1>
 							<h3 className={styles.itemText}>{el.text}</h3>

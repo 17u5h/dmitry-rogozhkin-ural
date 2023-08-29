@@ -1,6 +1,11 @@
 .wrapper {
-    width: 100vw;
     background-color: #0d1c3d;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center
 }
 
 .cookieAttention {
@@ -12,7 +17,6 @@
 }
 
 .listHrefContainer {
-    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +27,6 @@
     background-color: #1d3876;
     padding: 34px 20px 38px 20px;
     cursor: pointer;
-    margin-left: calc(50% - 300px);
 }
 
 .listHrefContainer:hover {
@@ -31,6 +34,7 @@
 }
 
 .listHref {
+    width: 600px;
     font-weight: 600;
     font-size: 32px;
     text-shadow: 1px 0 1px #000,
@@ -52,10 +56,9 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
     .listHrefContainer {
         width: 300px;
-        margin-left: calc(50% - 150px);
     }
 
     .listHref {

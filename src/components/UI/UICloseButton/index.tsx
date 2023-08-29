@@ -2,12 +2,12 @@ import React from 'react';
 import styles from './styles.module.css'
 
 type Props = {
-	onClick: () => void
+	onClick: (e: any) => void
 }
 
 const UiCloseButton = ({onClick}: Props) => {
 	return (
-		<div className={styles.closeButton} onClick={onClick}>
+		<div className={styles.closeButton} onClick={(e) => onClick(e)}>
 			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="40px" height="40px">
 				<path fill="#f78f8f"
 							d="M21 24.15L8.857 36.293 4.707 32.143 16.85 20 4.707 7.857 8.857 3.707 21 15.85 33.143 3.707 37.293 7.857 25.15 20 37.293 32.143 33.143 36.293z"/>
