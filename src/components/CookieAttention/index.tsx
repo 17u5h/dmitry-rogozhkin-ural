@@ -1,4 +1,4 @@
-import React, {MouseEventHandler} from 'react';
+import React from 'react';
 import styles from './styles.module.css'
 import {cookieAttentionContent} from "../../content/cookieAttentionContent";
 import UiCloseButton from "../UI/UICloseButton";
