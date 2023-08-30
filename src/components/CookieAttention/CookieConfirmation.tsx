@@ -5,7 +5,7 @@ import UiCloseButton from "../UI/UICloseButton";
 
 
 type Props = {
-	onClick: (e: any) => void
+	onClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
 	onMouseLeave: () => void
 }
 

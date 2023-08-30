@@ -4,7 +4,7 @@ import {cookieAttentionContent} from "../../content/cookieAttentionContent";
 import UiCloseButton from "../UI/UICloseButton";
 
 type Props = {
-	onClick: (e: MouseEventHandler<HTMLDivElement>) => void
+	onClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
 	onMouseEnter: () => void
 }
 

@@ -16,7 +16,7 @@ const Main = () => {
 	const [isCookieAttentionVisible, setIsCookieAttentionVisible] = useState(true)
 	const [isCookieConfirmationVisible, setIsCookieConfirmationVisible] = useState(false)
 
-	const hideCookieAttention = (e: { (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void; preventDefault?: any; }) => {
+	const hideCookieAttention = (e: React.MouseEvent<HTMLDivElement, MouseEvent> ) => {
 		e.preventDefault()
 		setIsCookieAttentionVisible(false)
 		setIsCookieConfirmationVisible(false)
@@ -45,9 +45,9 @@ const Main = () => {
 			</div>
 			<Footer onClick={focusDgisHandler}/>
 			{isCookieAttentionVisible &&
-				<CookieAttention onClick={(e) => hideCookieAttention(e)} onMouseEnter={showCookieConfirmation}/>}
+				<CookieAttention onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => hideCookieAttention(e)} onMouseEnter={showCookieConfirmation}/>}
 			{isCookieConfirmationVisible &&
-				<CookieConfirmation onClick={(e: { (event: React.MouseEvent<HTMLDivElement, MouseEvent>): void; preventDefault?: any; }) => hideCookieAttention(e)} onMouseLeave={hideCookieConfirmation}/>}
+				<CookieConfirmation onClick={(e: React.MouseEvent<HTMLDivElement, MouseEvent>) => hideCookieAttention(e)} onMouseLeave={hideCookieConfirmation}/>}
 		</div>
 	);
 };

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './styles.module.css'
 
 type Props = {
-	onClick: (e: any) => void
+	onClick: (e: React.MouseEvent<HTMLDivElement, MouseEvent>) => void
 }
 
 const UiCloseButton = ({onClick}: Props) => {
